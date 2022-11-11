@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 22
+const PORT = process.env.PORT
 const { Router } = require('express')
 const expressRouter = Router()
 
